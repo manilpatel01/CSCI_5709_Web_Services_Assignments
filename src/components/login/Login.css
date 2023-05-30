@@ -1,0 +1,115 @@
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.LoginContainer {
+    background-color: #DCE5F5;
+    border-radius: 20px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+.placeholderText {
+    color: "#000";
+    font-size: 16px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10px;
+}
+
+input {
+    background-color: transparent;
+    border-radius:  12px;
+    border-width: 1.5px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.submitButtonContainer {
+    width: 30%;
+    height: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btnText{
+    color: #14198F;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.notificationContainer {
+    background-color: #FFDADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    flex-direction: row;
+    color: #DD4343;
+}
+
+.message {
+    color: #DD4343;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.successNotificationContainer {
+    background-color: #AEE7BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 10px;
+    width: 20%;
+    height: 40px;
+    flex-direction: row;
+    color: #144203;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.successMessage {
+    color: #144203;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
